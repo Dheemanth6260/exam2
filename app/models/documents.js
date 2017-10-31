@@ -6,7 +6,7 @@ var documentSchema = new Schema({
  
   
     char: { type: String, required: true }, 
-    number: { type: Number, min: 16, max: 60}, 
+    number: { type: Number,16,60}, 
    
  
     
