@@ -8,7 +8,8 @@ var documentSchema = new Schema({
     lastName: { type: String, required: true }, // last name required 
     Status: {type: Boolean, default: true}, // status with default true
     email: {type: String, required: true, unique: true},
-    id: {type: Number, required: true, unique: true},
+    char: { type: String, required: true }, 
+    number: { type: Number, min: 16, max: 60}, 
     password: { type: String, required: true },
     dateRegistered: {type: Date, default: Date.now },
  
