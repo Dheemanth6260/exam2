@@ -9,7 +9,7 @@ var documentSchema = new Schema({
     Status: {type: Boolean, default: true}, // status with default true
     email: {type: String, required: true, unique: true},
     char: { type: String, required: true }, 
-    number: { type: Number, min: 16, max: 60}, 
+    idnumber: { type: Number, min: 16, max: 60}, 
     password: { type: String, required: true },
     dateRegistered: {type: Date, default: Date.now },
  
